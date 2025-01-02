@@ -18,17 +18,17 @@ It handles categorical variables effectively.
 
 # Feature Engineering
 
-1. Price Adjustment Features
+## 1. Price Adjustment Features
    
   AdjustedClose:
   Represents the adjusted closing price of the stock, accounting for corporate actions like splits and dividends, ensuring consistency over time.
 
-3. Time-Based Features
+## 2. Time-Based Features
    
   Day, Month, Year:
   The day, month, and year extracted from the date.
 
-5. Lag Features
+## 3. Lag Features
    
   Provides information on immediate historical performance.
 
@@ -41,7 +41,7 @@ It handles categorical variables effectively.
   Lag_Volume_1:
   The trading volume on the previous trading day.
 
-4. Rolling Statistics
+## 4. Rolling Statistics
    
   Provide a dynamic view of trends and patterns over a defined period.
 
@@ -51,7 +51,7 @@ It handles categorical variables effectively.
    MovingAvg_20Day:
      Rolling 20-day mean of the adjusted close price.
 
-5. Technical Indicator
+## 5. Technical Indicator
    
   ATR (Average True Range):
   Measures the average range (high-low differences) over the last 5 days, incorporating gaps from the previous close.

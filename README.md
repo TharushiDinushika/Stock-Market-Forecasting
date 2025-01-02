@@ -16,15 +16,20 @@ It handles categorical variables effectively.
 # Dataset
 [JPX Tokyo Stock Exchange Dataset](https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data)
 
+# Feature Engineering
+
 1. Price Adjustment Features
+   
   AdjustedClose:
   Represents the adjusted closing price of the stock, accounting for corporate actions like splits and dividends, ensuring consistency over time.
 
-2. Time-Based Features
+3. Time-Based Features
+   
   Day, Month, Year:
   The day, month, and year extracted from the date.
 
-3. Lag Features
+5. Lag Features
+   
   Provides information on immediate historical performance.
 
   Lag_Close_1:
@@ -37,6 +42,7 @@ It handles categorical variables effectively.
   The trading volume on the previous trading day.
 
 4. Rolling Statistics
+   
   Provide a dynamic view of trends and patterns over a defined period.
 
 Volatility_30Day:
@@ -46,6 +52,7 @@ MovingAvg_20Day:
   Rolling 20-day mean of the adjusted close price.
 
 5. Technical Indicator
+   
   ATR (Average True Range):
   Measures the average range (high-low differences) over the last 5 days, incorporating gaps from the previous close.
 

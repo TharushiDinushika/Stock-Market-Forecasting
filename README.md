@@ -14,39 +14,39 @@ It captures complex feature interactions.
 It handles categorical variables effectively.
 
 # Dataset
-JPX Tokyo Stock Exchange Dataset
+[JPX Tokyo Stock Exchange Dataset](https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data)
 
 1. Price Adjustment Features
-AdjustedClose:
-Represents the adjusted closing price of the stock, accounting for corporate actions like splits and dividends, ensuring consistency over time.
+  AdjustedClose:
+  Represents the adjusted closing price of the stock, accounting for corporate actions like splits and dividends, ensuring consistency over time.
 
 2. Time-Based Features
-Day, Month, Year:
-The day, month, and year extracted from the date.
+  Day, Month, Year:
+  The day, month, and year extracted from the date.
 
 3. Lag Features
-Provides information on immediate historical performance.
+  Provides information on immediate historical performance.
 
-Lag_Close_1:
-The closing price of the stock on the previous trading day.
-
-Lag_Close_5:
-The closing price of the stock five trading days ago.
-
-Lag_Volume_1:
-The trading volume on the previous trading day.
+  Lag_Close_1:
+  The closing price of the stock on the previous trading day.
+  
+  Lag_Close_5:
+  The closing price of the stock five trading days ago.
+  
+  Lag_Volume_1:
+  The trading volume on the previous trading day.
 
 4. Rolling Statistics
-Provide a dynamic view of trends and patterns over a defined period.
+  Provide a dynamic view of trends and patterns over a defined period.
 
 Volatility_30Day:
-Rolling 30-day standard deviation of log returns of the adjusted close price.
+  Rolling 30-day standard deviation of log returns of the adjusted close price.
 
 MovingAvg_20Day:
-Rolling 20-day mean of the adjusted close price.
+  Rolling 20-day mean of the adjusted close price.
 
 5. Technical Indicator
-ATR (Average True Range):
-Measures the average range (high-low differences) over the last 5 days, incorporating gaps from the previous close.
+  ATR (Average True Range):
+  Measures the average range (high-low differences) over the last 5 days, incorporating gaps from the previous close.
 
 

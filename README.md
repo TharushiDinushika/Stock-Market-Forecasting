@@ -45,11 +45,11 @@ It handles categorical variables effectively.
    
   Provide a dynamic view of trends and patterns over a defined period.
 
-Volatility_30Day:
-  Rolling 30-day standard deviation of log returns of the adjusted close price.
-
-MovingAvg_20Day:
-  Rolling 20-day mean of the adjusted close price.
+   Volatility_30Day:
+     Rolling 30-day standard deviation of log returns of the adjusted close price.
+   
+   MovingAvg_20Day:
+     Rolling 20-day mean of the adjusted close price.
 
 5. Technical Indicator
    
